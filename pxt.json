@@ -1,0 +1,38 @@
+{
+    "name": "Ravi_Stembot_bluetooth_control",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "microphone": "*",
+        "bluetooth": "*",
+        "RingbitCar": "github:tinkertanker/pxt-ringbitcar#v3.1.4",
+        "ContinuousServo": "github:tinkertanker/pxt-continuous-servo#v0.0.6"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "6.0.22",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj",
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "open": 1,
+                    "whitelist": 0,
+                    "security_level": null
+                }
+            }
+        }
+    }
+}
